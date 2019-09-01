@@ -58,7 +58,7 @@ class Table extends Component {
                 <p>
                   <Link
                     style={{ marginRight: '10px' }}
-                    to={'/campgrounds/' + this.props.obj._id + '/edit'}
+                    to={'/campgrounds/' + this.props.obj._id}
                     className="btn btn-success"
                   >
                     Edit
