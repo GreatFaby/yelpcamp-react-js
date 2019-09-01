@@ -1,0 +1,8 @@
+.dot {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logout {
+  padding-top: 5rem;
+}
