@@ -34,7 +34,7 @@ function App() {
       />
       <Route path="/campgrounds/new" render={props => <New {...props} />} />
       <Route
-        path="/campgrounds/:id/edit"
+        path="/campgrounds/:id"
         exact
         render={props => <Edit {...props} />}
       />
