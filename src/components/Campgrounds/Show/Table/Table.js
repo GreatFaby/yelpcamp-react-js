@@ -54,28 +54,28 @@ class Table extends Component {
                 <h4>{this.props.obj.name}</h4>
                 <p>{this.props.obj.description}</p>
 
-                {this.props.userId === this.props.obj.owner && (
-                  <p>
-                    <Link
-                      style={{ marginRight: '10px' }}
-                      to={'/campgrounds/' + this.props.obj._id + '/edit'}
-                      className="btn btn-success"
-                    >
-                      Edit
-                    </Link>
-                    <button onClick={this.delete} className="btn btn-danger">
-                      Delete
-                    </button>
+                {/* {this.props.userId === this.props.obj.owner && ( */}
+                <p>
+                  <Link
+                    style={{ marginRight: '10px' }}
+                    to={'/campgrounds/' + this.props.obj._id + '/edit'}
+                    className="btn btn-success"
+                  >
+                    Edit
+                  </Link>
+                  <button onClick={this.delete} className="btn btn-danger">
+                    Delete
+                  </button>
 
-                    <Link
-                      style={{ marginRight: '5px' }}
-                      to={'/campgrounds/'}
-                      className="btn btn-success"
-                    >
-                      Go back
-                    </Link>
-                  </p>
-                )}
+                  <Link
+                    style={{ marginRight: '5px' }}
+                    to={'/campgrounds/'}
+                    className="btn btn-success"
+                  >
+                    Go back
+                  </Link>
+                </p>
+                {/* )} */}
               </div>
             </div>
           </div>
