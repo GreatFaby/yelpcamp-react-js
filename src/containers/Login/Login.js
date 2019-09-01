@@ -32,7 +32,7 @@ class Login extends Component {
       password: this.state.password,
     };
     axios
-      .post('https://yelpcamp-node-api.herokuapp.com/login', data)
+      .post('https://yelpcamp-node-api.herokuapp.com/users/login', data)
       .then(response => {
         console.log(response);
         if (response.data) {

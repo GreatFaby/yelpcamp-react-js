@@ -19,7 +19,7 @@ class Body extends Component {
               to={'/campgrounds/' + this.props.obj._id + '/show'}
               className="btn btn-primary"
             >
-              Show
+              More info
             </Link>
           </p>
         </div>

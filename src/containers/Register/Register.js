@@ -32,7 +32,7 @@ class Register extends Component {
       password: this.state.password,
     };
     axios
-      .post('https://yelpcamp-node-api.herokuapp.com/register', data)
+      .post('https://yelpcamp-node-api.herokuapp.com/users', data)
       .then(response => {
         if (response.data) {
           localStorage.setItem('token', response.data.token);

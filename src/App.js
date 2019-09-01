@@ -46,7 +46,6 @@ function App() {
       <Route path="/" exact component={Landing} />
     </Switch>
   );
-  // ba
 
   return (
     <div>
